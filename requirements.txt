@@ -1,0 +1,28 @@
+# Віртуальні середовища
+venv/
+.venv/
+env/
+ENV/
+
+# Кеші Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Секрети та локальні конфіги
+.env
+.env.*
+secrets.*
+*.local
+
+
